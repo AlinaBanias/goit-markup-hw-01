@@ -1,0 +1,35 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    ;
+}
+
+.logo {
+    color: #000000;
+}
+
+span {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
