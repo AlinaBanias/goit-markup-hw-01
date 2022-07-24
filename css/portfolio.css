@@ -12,6 +12,11 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
+.button :hover,
+.button :focus{
+   background-color:  var(--accent-color);
+   color: #FFFFFF;
+} 
 .work-title{
     color: var(--primary-text-color);
     font-weight: 700;
