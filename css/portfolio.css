@@ -5,32 +5,35 @@
     --second-text-color: #757575;
 }
 .button{
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
+    
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+border: 0;
 }
-.button :hover,
-.button :focus{
-   background-color:  var(--accent-color);
-   color: #FFFFFF;
-} 
+.button:hover,
+.button:focus{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+.button.current{
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+ .images{
+    text-decoration: none;
+ }
 .work-title{
     color: var(--primary-text-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
-    text-decoration: none;
+
 }
 .work-text{
     font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.03em;
+    line-height: 1.88;
     color: var( --second-text-color);
-    text-decoration: none;
+
 }
 
 .item .link{
@@ -38,7 +41,6 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    text-decoration: none;
 }
 .item .link-text{
         font-size: 14px;

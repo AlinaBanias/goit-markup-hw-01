@@ -8,12 +8,7 @@
     --accent-color: #2196F3;
     --second-text-color: #757575;
 }
- body {
-    background-color: #ffffff;
-    color: var(--primary-text-color);
-    ;
-    font-family: 'Roboto', sans-serif;
-}
+
 .logo{
     color: #000000;
 }
@@ -46,20 +41,15 @@ span{
     text-transform: uppercase;
 }
 .title{
-    color: var(--primary-text-color);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .section-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .feature-list .title{
     color: var(--primary-text-color);
@@ -78,21 +68,17 @@ span{
     border: 0;
 }
 .text{
-    font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 .command-title{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 .command-text{
     font-size: 16px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 

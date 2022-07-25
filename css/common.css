@@ -8,8 +8,9 @@ body {
     background-color: var(--primary-bgr-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
-    font-size: normal;
+    font-size: 14px;
     font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .logo {
@@ -18,7 +19,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 .logo-second{
@@ -27,7 +27,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -57,7 +56,6 @@ span {
 .contacts .link {
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -77,22 +75,29 @@ span {
 }
 .address{
     background-color: #2F303A;
+
 }
 .item .link {
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    font-style: normal;
+    
 }
 
 .item .link-text {
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-style: normal;
 }
+.item .link-text:hover,
+.item .link-text:focus{
+color: var(--accent-color);
+}
+
 
 
 
